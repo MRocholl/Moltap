@@ -11,7 +11,7 @@ Originally from: http://twan.home.fmf.nl/moltap/
 Installing *Git* on a *Mac*
 ===========================
 
-`Open a terminal window <http://www.youtube.com/watch?v=zw7Nd67_aFw>`
+`Open a terminal window <http://www.youtube.com/watch?v=zw7Nd67_aFw>`_
 
 Step 1 – Install `*Homebrew* <http://brew.sh/>`
 ===============================================
@@ -20,7 +20,7 @@ Step 1 – Install `*Homebrew* <http://brew.sh/>`
 
     *Homebrew* […] simplifies the installation of software on the Mac OS X operating system.
 
-– `Homebrew – Wikipedia <http://en.wikipedia.org/wiki/Homebrew_%28package_management_software%29>`
+– `Homebrew – Wikipedia <http://en.wikipedia.org/wiki/Homebrew_%28package_management_software%29>`_
 
 **Copy & paste the following** into the terminal window and **hit `Return`**::
 
