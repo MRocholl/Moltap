@@ -16,12 +16,12 @@ Installing *Git* on a *Mac*
 
 `Open a terminal window <http://www.youtube.com/watch?v-zw7Nd67_aFw>`_
 
-Step 1 – Install `*Homebrew* <http://brew.sh/>`_
+Step 1 – Install `Homebrew <http://brew.sh/>`_
 ------------------------------------------------
 
 ::
 
-    *Homebrew* […] simplifies the installation of software on the Mac OS X operating system.
+    ``Homebrew`` […] simplifies the installation of software on the Mac OS X operating system.
 
 – `Homebrew – Wikipedia <http://en.wikipedia.org/wiki/Homebrew_%28package_management_software%29>`_
 
@@ -51,13 +51,17 @@ Step 3 - Install graphviz
 Step 4 - Install *Stack*
 ------------------------
 Proceed with installing *stack*. This will install *ghc* (the haskell compiler) automatically::
+
     curl -sSL https://get.haskellstack.org/ | sh
+
 If curl is not installed, please use::
+
     wget -qO- https://get.haskellstack.org/ | sh
 
 Step 5 - Clone the Moltap repository
 ------------------------------------
 Clone the Moltap project from github::
+
     git clone https://github.com/bitemyapp/Moltap.gi://github.com/bitemyapp/Moltap.git 
 
 The repositroy is now cloned. There should be a repository called Moltap in your current directory.
@@ -83,7 +87,7 @@ Step 7 - Running Moltap
 
 After the three commands passed, the binary `moltap` will be located at::
 
-    **./.stack-work/install/system/os/ghc_release/bin**
+    ./.stack-work/install/system/os/ghc_release/bin
 
 System and os  will differ for every system running the above commands. 
 But there is only one subdirectory in *.stack-work/install*, so there should be no problem::
