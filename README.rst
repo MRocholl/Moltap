@@ -8,18 +8,19 @@ All I did was make it build with a modern stack (Stack + GHC 7.10.3)
 Originally from: http://twan.home.fmf.nl/moltap/
 
 
-===========================
 Installing *Git* on a *Mac*
 ===========================
 
-[Open a terminal window](http://www.youtube.com/watch?v=zw7Nd67_aFw).
+`Open a terminal window <http://www.youtube.com/watch?v=zw7Nd67_aFw>`
 
-Step 1 – Install [*Homebrew*](http://brew.sh/)
-==============================================
+Step 1 – Install `*Homebrew* <http://brew.sh/>`
+===============================================
 
-> *Homebrew* […] simplifies the installation of software on the Mac OS X operating system.
+::
 
-– [Homebrew – Wikipedia](http://en.wikipedia.org/wiki/Homebrew_%28package_management_software%29)
+    *Homebrew* […] simplifies the installation of software on the Mac OS X operating system.
+
+– `Homebrew – Wikipedia <http://en.wikipedia.org/wiki/Homebrew_%28package_management_software%29>`
 
 **Copy & paste the following** into the terminal window and **hit `Return`**::
 
@@ -73,6 +74,7 @@ Step 7 - Running Moltap
 =======================
 
 After the three commands passed, the binary `moltap` will be located at::
+
     **./.stack-work/install/system/os/ghc_release/bin**
 
 System and os  will differ for every system running the above commands. 
@@ -81,6 +83,7 @@ But there is only one subdirectory in *.stack-work/install*, so there should be 
     cd ./.stack-work/install/system/os/release/bin
 
 Once in the *bin* directory, exectute the *moltap* binary with::
+
     ./moltap -i
 
 .. note:: This is the interactive mode
