@@ -63,7 +63,7 @@ Step 5 - Clone the Moltap repository
 ------------------------------------
 Clone the Moltap project from github::
 
-    git clone https://github.com/bitemyapp/Moltap.gi://github.com/bitemyapp/Moltap.git 
+    git clone https://github.com/bitemyapp/Moltap.git 
 
 The repositroy is now cloned. There should be a repository called Moltap in your current directory.
 
