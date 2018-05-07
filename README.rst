@@ -15,7 +15,7 @@ The following is a detailed guideline to setup the project.
 Installing *Git* on a *Mac*
 ---------------------------
 
-`Open a terminal window <http://www.youtube.com/watch?v-zw7Nd67_aFw>`_
+Open a terminal window 
 
 Step 1 – Install `Homebrew <http://brew.sh/>`_
 ------------------------------------------------
